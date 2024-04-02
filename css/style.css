@@ -13,6 +13,30 @@ body{
 
 }
 
+select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-family:"Questrial", sans-serif;
+    font-size: 16px;
+}
+
+img{
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+
+} 
+h2{
+    margin: 0 0 10px;
+    font-size: 28px;
+}
+
 .city {
     display: flex;
     margin: 25px 0;
@@ -22,12 +46,6 @@ body{
 }
 .city:last-child{
     border-bottom: none;
-}
-
-h2{
-    margin: 0 0 10px;
-    font-size: 28px;
-
 }
 
 .date {
@@ -44,19 +62,6 @@ font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 vertical-align: middle;
 }
-select{
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    font-family:"Questrial", sans-serif;
-    font-size: 16px;
-}
-
-h1{
-    text-align: center;
-    font-size: 36px;
-} 
 
 a {
     color: rgb(255, 55, 145);
@@ -67,5 +72,3 @@ footer{
     opacity: 0.8;
 
 }
-
-
